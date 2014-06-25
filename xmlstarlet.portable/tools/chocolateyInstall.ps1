@@ -1,6 +1,6 @@
 ﻿try {
   $package = 'xmlstarlet'
-  $PackageVersion = "1.5.0"
+  $PackageVersion = "1.6.0"
   $url = "http://sourceforge.net/projects/xmlstar/files/xmlstarlet/$PackageVersion/xmlstarlet-$PackageVersion-win32.zip/download"
   $destination = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
 

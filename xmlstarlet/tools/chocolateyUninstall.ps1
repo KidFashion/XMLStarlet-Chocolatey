@@ -1,1 +1,1 @@
-﻿
+﻿write-host -backgroundColor Red "NOTICE: Uninstall also xmlstarlet.portable package with command 'CUNINST xmlstarlet.portable' to complete uninstall"
