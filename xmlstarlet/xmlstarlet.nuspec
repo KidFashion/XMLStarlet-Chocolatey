@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>xmlstarlet</id>
-    <version>1.6.0</version>
+    <version>1.6.1</version>
     <title>XMLStarlet</title>
     <authors>Mikhail Grushinskiy</authors>
     <owners>KidFashion</owners>
@@ -11,15 +11,10 @@
 <copyright>http://xmlstar.sourceforge.net/license.php</copyright>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>XMLStarlet is a set of command line utilities (tools) which can be used to transform, query, validate, and edit XML documents and files using simple set of shell commands in similar way it is done for plain text files using UNIX grep, sed, awk, diff, patch, join, etc commands.</description>
-	<releaseNotes><![CDATA[1.6.0: June 12, 2014
+	<releaseNotes><![CDATA[1.6.1: August 9, 2014
 
-    - get rid of "helpful" message about namespaces
-    - update user guide
-    - Enhancements:
-      - add --stop option to val
-      - add global option --no-doc-namespace
-    - Build:
-      - let the make install target succeed even if docs aren't built.]]></releaseNotes>
+    - handle unicode arguments under Windows
+]]></releaseNotes>
     <tags>sourceforge xml xslt tool commandline chocolatey xmlstarlet</tags>
     <dependencies>
       <dependency id="xmlstarlet.portable" version="[1.6.0]" />
