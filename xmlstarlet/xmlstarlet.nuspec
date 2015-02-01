@@ -13,11 +13,11 @@
     <description>XMLStarlet is a set of command line utilities (tools) which can be used to transform, query, validate, and edit XML documents and files using simple set of shell commands in similar way it is done for plain text files using UNIX grep, sed, awk, diff, patch, join, etc commands.</description>
 	<releaseNotes><![CDATA[1.6.1: August 9, 2014
 
-    - handle unicode arguments under Windows
+*  handle unicode arguments under Windows
 ]]></releaseNotes>
     <tags>sourceforge xml xslt tool commandline chocolatey xmlstarlet</tags>
     <dependencies>
-      <dependency id="xmlstarlet.portable" version="[1.6.0]" />
+      <dependency id="xmlstarlet.portable" version="[1.6.1]" />
     </dependencies>
   </metadata>
 </package>
